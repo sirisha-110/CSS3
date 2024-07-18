@@ -1,0 +1,47 @@
+to me
+
+<html>
+    <head>
+        <title>Media Queries</title>
+        <style>
+            .container {
+                margin: 0 auto;
+                background: hsl(154, 94%, 37%);
+                box-sizing: border-box;
+            }
+            @media screen and (min-width: 767px) {
+                .container {
+                    width: 100%;
+                    padding: 5px 10px;
+                }
+            }
+            @media screen and (min-width:768px) and (max-width:1024px)
+            {
+                .container {
+                    width: 750px;
+                    padding: 5px 10px;
+                }
+            }
+            @media screen and (min-width:1024px) {
+                .container {
+                    width: 980px;
+                    padding: 5px 15px;
+                }
+            }
+            @media screen and (min-width:1280px) {
+                .container {
+                    width: 1200px;
+                    padding:5px 20px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p>Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.
+                It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets
+                (CSS) and scripting languages such as JavaScript.Web browsers receive HTML documents from a web server or from local 
+                storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically .</p>          
+        </div>
+    </body>
+</html>

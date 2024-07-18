@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>CSS3 animation</title>
+        <style>
+            .box{
+                margin: 100px;
+                width:450px;
+                height:450px;
+                background:url("ball.jpg")no-repeat;
+                position:relative;
+                animation:repeatit 2s linear 0s infinite alternate;
+            }
+            @keyframes repeatit{
+                from{left:0;}
+                to{left:50%;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>
